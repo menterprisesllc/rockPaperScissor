@@ -63,31 +63,8 @@ function game() {
 }
 game();
 
-/*function playerChoice() {
-    let input = prompt("Type Rock, Paper, or Scissor");
-    while(input == null) {
-        input = prompt("Type Rock, Paper, Scissors");
-    }
-    input = input.toLowerCase();
-    let check = validateInput(input);
-    while (check == false) {
 
-    }
-    if (check == true) {
-        console.log(input);
-    }
-    //console.log(input);
-}
 
-function validateInput(choice) {
-    return choices.includes(choice);
-     
-}
-
-function game() {
-    playRound();
-} 
-game();*/
 
 
 
